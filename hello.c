@@ -13,7 +13,7 @@ int main(){
 
 	generate_number = rand() % 10 + 1;
 
-	scanf("%d", &given_number);
+	scanf("%d", &given_number); // read a input number;
 
 	if(generate_number == given_number){
 		
